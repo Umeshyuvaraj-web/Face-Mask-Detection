@@ -1,37 +1,44 @@
-# 😷 Face Mask Detection Using CNN & OpenCV
+# 😷 Face Mask Detection Using CNN, OpenCV & Streamlit
 
 ## 📌 Project Overview
 
-Face Mask Detection is a Deep Learning and Computer Vision project that detects human faces in real time and classifies whether a person is wearing a face mask or not.
+Face Mask Detection is a Deep Learning and Computer Vision project that detects human faces and classifies whether a person is wearing a face mask or not.
 
-The system uses a Convolutional Neural Network (CNN) trained with face mask images and OpenCV for real-time face detection through a webcam.
+The project uses a Convolutional Neural Network (CNN) built with TensorFlow/Keras for mask classification and OpenCV for face detection.
 
-The application displays a bounding box around detected faces along with the predicted class and confidence percentage.
+A Streamlit web application is also included, allowing users to upload an image and receive a mask detection result with confidence percentage.
+
+The project also supports real-time webcam-based face mask detection.
 
 ---
 
 ## 🎯 Objectives
 
-- Detect human faces in real time using a webcam.
-- Classify faces into **MASK** and **NO MASK** categories.
-- Use a CNN model for image classification.
-- Display prediction confidence.
-- Provide a real-time computer vision application.
-- Demonstrate the practical use of Deep Learning with OpenCV.
+The main objectives of this project are:
+
+- Detect human faces from images and webcam frames.
+- Classify detected faces into MASK and NO MASK categories.
+- Build and train a CNN-based image classification model.
+- Perform real-time face mask detection using OpenCV.
+- Develop a simple web interface using Streamlit.
+- Display prediction confidence for detected faces.
+- Demonstrate the practical application of Deep Learning and Computer Vision.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Real-time face detection
-- ✅ Mask / No Mask classification
-- ✅ CNN-based Deep Learning model
-- ✅ OpenCV webcam integration
-- ✅ Confidence percentage
-- ✅ Bounding boxes around detected faces
-- ✅ Multiple face detection
-- ✅ FPS display
-- ✅ Real-time prediction
+- 😷 MASK / NO MASK classification
+- 📷 Real-time webcam detection
+- 🖼️ Image upload detection
+- 🤖 CNN-based Deep Learning model
+- 👤 Face detection using OpenCV
+- 📊 Prediction confidence percentage
+- 👥 Multiple face detection
+- ⚡ Real-time processing
+- 🌐 Streamlit web interface
+- 📦 Trained Keras model
+- 🎯 Bounding boxes around detected faces
 
 ---
 
@@ -42,17 +49,20 @@ The application displays a bounding box around detected faces along with the pre
 | Python | Programming language |
 | TensorFlow | Deep Learning framework |
 | Keras | CNN model development |
-| OpenCV | Computer Vision and webcam processing |
+| OpenCV | Face detection and image processing |
+| Streamlit | Web application interface |
 | NumPy | Numerical operations |
 | Pandas | Dataset and annotation processing |
-| Matplotlib | Training visualization |
+| Matplotlib | Data visualization |
 | CNN | Image classification |
 
 ---
 
 ## 🧠 Machine Learning Approach
 
-The project uses a **Convolutional Neural Network (CNN)** for binary image classification.
+The project uses a Convolutional Neural Network (CNN) for binary image classification.
+
+The input face image is resized to `128 × 128` pixels and normalized before being passed to the CNN model.
 
 ### CNN Architecture
 
