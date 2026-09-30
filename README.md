@@ -16,7 +16,7 @@ The application displays a bounding box around detected faces along with the pre
 - Classify faces into **MASK** and **NO MASK** categories.
 - Use a CNN model for image classification.
 - Display prediction confidence.
-- Provide a simple real-time computer vision application.
+- Provide a real-time computer vision application.
 - Demonstrate the practical use of Deep Learning with OpenCV.
 
 ---
